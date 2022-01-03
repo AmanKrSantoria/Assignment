@@ -16,39 +16,66 @@ public class Homepage {
 		loggerUtil = new Logs();
 	}
 
-	public void clickSearchicon() {
+	public void clickProducts() {
 		try {
 			log = loggerUtil.createLog("Homepage.java");
-			helper.actionClick(HomePageUI.searchicon);
-			log.debug("Search icon clicked");
+			helper.actionClick(HomePageUI.products);
+			log.debug("Products clicked");
 		} catch (WebDriverHelperException e) {
 			e.printStackTrace();
 		}	
 	}
 
 	
-	public  void enterItem() {
+	public  void clickMach() {
 		try {
-			String string = helper.properties.getProperty("Item");
-			helper.sendText(HomePageUI.searchbox, string);
-			log.debug("Entered item "+string+" in search box");
+			helper.actionClick(HomePageUI.mach);
+			log.debug("Mach clicked");
 		} catch (WebDriverHelperException e) {
 			e.printStackTrace();
 		}
 		
 	}
 	
-	public void clickSearchbutton() {
+	public  void clickSearch() {
 		try {
-			helper.clickButton(HomePageUI.searchbutton);
-			log.debug("Search button clicked");
+			helper.actionClick(HomePageUI.search);
+			log.debug("Search clicked");
+		} catch (WebDriverHelperException e) {
+			e.printStackTrace();
+		}
+		
+	}
+	public  void clickStyle() {
+		try {
+			helper.actionClick(HomePageUI.style);
+			log.debug("Style clicked");
+		} catch (WebDriverHelperException e) {
+			e.printStackTrace();
+		}
+		
+	}
+
+	
+	public void checkInfo() {
+		try {
+			helper.getText(HomePageUI.info).compareTo("With sharper, Turbo cutting blades*, the Gillette MACH3 Turbo razor is engineered to last for 15 comfortable shaves");
+			log.debug("Gillette Mach3 Turbo found");
 		} catch (WebDriverHelperException e) {
 			e.printStackTrace();
 		};
 		
 	}
 
-
+	public void checkText() {
+		try {
+			helper.getText(HomePageUI.Text).compareTo("Facial Hair Styles: The Anchor Beard");
+			log.debug("Text found");
+		} catch (WebDriverHelperException e) {
+			e.printStackTrace();
+		};
+		
+	}
 	
 }
 

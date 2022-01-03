@@ -29,7 +29,7 @@ public class Hooks extends WebDriverManager {
 		log.debug("Opening URL");
 		try {
 			Helper = new WebDriverHelper();
-			Helper.actionClick(HomePageUI.faq);
+			Helper.actionClick(HomePageUI.products);
 		} catch (WebDriverHelperException e) {
 			e.printStackTrace();
 		}

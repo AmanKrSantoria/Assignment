@@ -1,6 +1,5 @@
-Feature: Insurance Company
-Scenario: Click on Corporate Mission and Validate result
-    Given Go to Insurance Company Website Close FAQ popup
-    When Mouse hover to About Us
-    And Click on Corporate Mission
-    Then Verify if Corporate Mission present in new page opened
+Feature: Gillete Company
+Scenario: Click on “Styling” under “Learn” in footer
+    Given Go to Gillete Company Website 
+    When Click on “Styling” under “Learn” in footer
+    And Verify if we have the text “Facial Hair Styles: The Anchor Beard” under list of articles under styling.

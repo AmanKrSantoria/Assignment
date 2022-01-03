@@ -123,3 +123,62 @@
 [main] DEBUG corporatemission.java  - Corporate Mission clicked
 [main] DEBUG corporatemission.java  - Corporate Mission
 [main] INFO  Hooks.class  - Driver closed
+[main] DEBUG Hooks.class  - Opening driver
+[main] INFO  Hooks.class  - Driver opened
+[main] DEBUG Hooks.class  - Opening URL
+[main] INFO  Hooks.class  - Driver closed
+[main] DEBUG Hooks.class  - Opening driver
+[main] INFO  Hooks.class  - Driver opened
+[main] DEBUG Hooks.class  - Opening URL
+[main] INFO  Hooks.class  - Driver closed
+[main] DEBUG Hooks.class  - Opening driver
+[main] INFO  Hooks.class  - Driver opened
+[main] DEBUG Hooks.class  - Opening URL
+[main] INFO  Test1  - Website opened and FAQ closed
+[main] DEBUG Homepage.java  - Products clicked
+[main] DEBUG Homepage.java  - Mach clicked
+[main] DEBUG Homepage.java  - Gillette Mach3 Turbo found
+[main] INFO  Hooks.class  - Driver closed
+[main] DEBUG Hooks.class  - Opening driver
+[main] INFO  Hooks.class  - Driver opened
+[main] DEBUG Hooks.class  - Opening URL
+[main] INFO  Hooks.class  - Driver closed
+[main] DEBUG Hooks.class  - Opening driver
+[main] INFO  Hooks.class  - Driver opened
+[main] DEBUG Hooks.class  - Opening URL
+[main] INFO  Test1  - Website opened and FAQ closed
+[main] INFO  Hooks.class  - Driver closed
+[main] DEBUG Hooks.class  - Opening driver
+[main] INFO  Hooks.class  - Driver opened
+[main] DEBUG Hooks.class  - Opening URL
+[main] INFO  Test1  - Website opened and FAQ closed
+[main] INFO  Hooks.class  - Driver closed
+[main] DEBUG Hooks.class  - Opening driver
+[main] INFO  Hooks.class  - Driver opened
+[main] DEBUG Hooks.class  - Opening URL
+[main] INFO  Test1  - Website opened and FAQ closed
+[main] INFO  Hooks.class  - Driver closed
+[main] DEBUG Hooks.class  - Opening driver
+[main] INFO  Hooks.class  - Driver opened
+[main] DEBUG Hooks.class  - Opening URL
+[main] INFO  Test1  - Website opened and FAQ closed
+[main] INFO  Hooks.class  - Driver closed
+[main] DEBUG Hooks.class  - Opening driver
+[main] INFO  Hooks.class  - Driver opened
+[main] DEBUG Hooks.class  - Opening URL
+[main] INFO  Test  - Website opened
+[main] INFO  Hooks.class  - Driver closed
+[main] DEBUG Hooks.class  - Opening driver
+[main] INFO  Hooks.class  - Driver opened
+[main] DEBUG Hooks.class  - Opening URL
+[main] INFO  Test  - Website opened
+[main] INFO  Hooks.class  - Driver closed
+[main] DEBUG Hooks.class  - Opening driver
+[main] INFO  Hooks.class  - Driver opened
+[main] DEBUG Hooks.class  - Opening URL
+[main] INFO  Hooks.class  - Driver closed
+[main] DEBUG Hooks.class  - Opening driver
+[main] INFO  Hooks.class  - Driver opened
+[main] DEBUG Hooks.class  - Opening URL
+[main] INFO  Test  - Website opened
+[main] INFO  Hooks.class  - Driver closed

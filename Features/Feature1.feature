@@ -1,8 +1,7 @@
-Feature: Insurance Company
+Feature: Gillete Company
 
-  Scenario: Search Car and Validate result
-    Given Go to Insurance Company Website Close FAQ popup
-    When I Click on search
-    And Entere car in search box
-    And Click on Search button 
-    Then Validate if Car present in first result 
+  Scenario: Click on Products and verify mach3 turbo
+    Given Go to Gillete Website and Click on mach3 under products
+    When I Click on Products
+    And I click on Mach3
+    Then Validate if Gillete Mach3 Turbo is present under Our products
